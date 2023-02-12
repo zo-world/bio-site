@@ -1,0 +1,50 @@
+/*global*/
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+h1,h2,h3{
+  text-align: center;
+}
+
+/*utilities*/
+.grid-two-columns{
+  display: flex;
+}
+
+/*header*/
+.site-header{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 40%;
+}
+
+.site-header h1{
+  text-transform: uppercase;
+  letter-spacing:6px;
+  font-size: 62px;
+  color:#ffcc00;
+  text-shadow: white 2px 2px;
+}
+
+.site-header h2{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.geo-location{
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+/*main*/
+main{
+  width: 60%;
+}
