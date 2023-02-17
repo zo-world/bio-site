@@ -154,7 +154,6 @@ h3{
 }
 .service .icon{
   display: flex;
-
   justify-content: center;
   align-items: center;
   background-color: #ffcc00;
@@ -169,7 +168,7 @@ h3{
 }
 /*project*/
 .project{
-  text-align: center;
+  text-align: left;
 }
 .project a:hover{
   text-decoration: underline;
